@@ -5,7 +5,6 @@
 >
 > Iterative · Modular · AI-Augmented · Production-Ready from Day One · Tool-Agnostic
 >
-> Companion guides: [`claude-code-integration.md`](./claude-code-integration.md) · [`antigravity-ide-integration.md`](./antigravity-ide-integration.md)
 
 | Methodology | Roles | Phases | Cycle Steps | Autonomy |
 |---|---|---|---|---|
@@ -909,8 +908,7 @@ LESSONS EVOLVED
 
 > Adapted from Ryan Lopopolo's [**Harness Engineering**](https://github.com/lopopolo/harness-engineering) anthology and playbooks. Harness engineering holds the model and the coding agent constant and treats them as a black box; it improves the two levers actually under your control — **context** and **tools** — and curates the environment around them, so the senior-engineer judgement defined in Section I survives contact with whichever coding tool the team opens today.
 
-Sections I–VI define *what* a senior-grade delivery looks like. This section defines how that standard stays retrievable, current, and identical no matter whether an engineer is driving from **Claude Code**, **Antigravity IDE**, or any other agent the team adopts next quarter. See [`claude-code-integration.md`](./claude-code-integration.md) and [`antigravity-ide-integration.md`](./antigravity-ide-integration.md) for the tool-specific implementation of everything below.
-
+Sections I–VI define *what* a senior-grade delivery looks like. This section defines how that standard stays retrievable, current, and identical no matter whether an engineer is driving from **Claude Code**, **Antigravity IDE**, or any other agent the team adopts next quarter.
 ---
 
 ### A. The Core Idea
@@ -1034,7 +1032,6 @@ Both companion guides implement everything above against the same `AGENTS.md` �
 | Enforced (not just requested) checks | Hooks (`PreToolUse`, `PostToolUse`, `Stop`) | Workflows + native verification + CI as the hard gate |
 | Multi-role parallel work | Subagents / agent teams | Manager Surface / parallel agents |
 
-See [`claude-code-integration.md`](./claude-code-integration.md) or [`antigravity-ide-integration.md`](./antigravity-ide-integration.md) for full setup instructions.
 
 ---
 
